@@ -1,0 +1,40 @@
+.testimonioContenedor{
+    /* border: solid yellow; */
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px; /*Arriba, lados y abajo*/
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+    .testimonioImagen{
+        height: 100%;
+        width: auto;
+    }
+
+        .testimonioBiografia{
+            /* border: solid; */
+            text-align: center;
+            padding: 40px;
+            font-family: Lato,sans-serif;
+            font-weight: 400;
+            line-height: 1.5rem;
+        }
+
+            .testimonioNombre{
+                font-size: 1.3rem; /*rem calcula el valor de la unidad raiz que se le asignó al html y se le aplica*/
+            }
+
+            .testimonioCargo{
+                font-size: 1.3rem;
+                margin-top: 15px;
+                padding-bottom: 30px;
+            }
+
+            .testimonioTexto{
+                font-size: 1.1rem;
+                text-align: justify; /*rellenar el contenedor de derehca a izquierda el texto*/
+            }
